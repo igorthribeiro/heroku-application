@@ -9,7 +9,7 @@ import javax.persistence.SequenceGenerator;
 @Entity(name = "funcionario")
 public class Funcionario {
 
-	//@Id
+	@Id
 	//@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int codigo;
 	private String nome;
