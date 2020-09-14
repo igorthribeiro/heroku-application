@@ -41,7 +41,7 @@
 		<property name="dataSource" ref="postgresDataSource" />
 		<property name="packagesToScan">
 			<list>
-				<value>br.com.igordev.dominio</value>
+				<value>br.com.igordev.dominio.Funcionario</value>
 			</list>
 		</property>
 		<property name="persistenceUnitName" value="funcionario" />
