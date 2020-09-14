@@ -9,8 +9,8 @@ import javax.persistence.SequenceGenerator;
 @Entity(name = "funcionario")
 public class Funcionario {
 
-	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	//@Id
+	//@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int codigo;
 	private String nome;
 	private char sexo;
