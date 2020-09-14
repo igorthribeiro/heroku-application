@@ -10,7 +10,7 @@ import javax.persistence.SequenceGenerator;
 public class Funcionario {
 
 	@Id
-	//@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int codigo;
 	private String nome;
 	private char sexo;
