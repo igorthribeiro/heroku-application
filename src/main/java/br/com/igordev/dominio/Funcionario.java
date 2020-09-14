@@ -3,10 +3,8 @@ package br.com.igordev.dominio;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity
-@Table(name = "funcionario")
+@Entity(name = "funcionario")
 public class Funcionario {
 
 	@Id
