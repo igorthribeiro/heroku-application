@@ -33,7 +33,7 @@ public class JpaFuncionarioDao {
 	}// fim buscarId
 
 	public List<Funcionario> buscarTodos() {
-		return  manager.createQuery("select f from funcionario f", Funcionario.class).getResultList();
+		return  manager.createQuery("select f from Funcionario f", Funcionario.class).getResultList();
 	}// fim buscarTodos
 
 }
