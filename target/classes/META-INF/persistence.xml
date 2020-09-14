@@ -7,7 +7,7 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>br.com.igordev.dominio.Funcionario</class>
 		<properties>
-			<property name="hibernate.dialect" value="org.hibernate.dialect.ProgressDialect" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL10Dialect" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
