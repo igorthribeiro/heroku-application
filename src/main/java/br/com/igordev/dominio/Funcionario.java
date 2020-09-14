@@ -2,13 +2,15 @@ package br.com.igordev.dominio;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 
 @Entity(name = "funcionario")
 public class Funcionario {
 
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int codigo;
 	private String nome;
 	private char sexo;

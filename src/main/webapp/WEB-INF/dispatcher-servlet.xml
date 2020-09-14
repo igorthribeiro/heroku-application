@@ -54,11 +54,6 @@
 			<bean
 				class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
 		</property>
-		<property name="jpaProperties">
-			<props>
-				<prop key="hibernate.default_schema">${database.schema}</prop>
-			</props>
-		</property>
 	</bean>
 
 	<!-- gerenciamento de transações pelo spring -->
