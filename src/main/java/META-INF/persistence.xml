@@ -7,6 +7,7 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>br.com.igordev.dominio.Funcionario</class>
 		<properties>
+			<property name="hibernate.default_schema" value="d7oenp5nmq13bu"/>
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.PostgreSQLDialect" />
 			<property name="hibernate.show_sql" value="true" />
